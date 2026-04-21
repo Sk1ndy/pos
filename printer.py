@@ -49,3 +49,4 @@ class Printer:
         ser = serial.Serial(DRAWER_PORT, 9600, timeout=1)
         ser.write(b'\x01')
         ser.close()
+        self.open_drawer() 
