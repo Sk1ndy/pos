@@ -9,14 +9,5 @@ PRINTER_CONFIG = {
     "vendor_id": 0x04b8,
     "product_id": 0x0202
 }
-
-DRAWER_CONFIG = {
-    "port": "/dev/ttyUSB0",
-    "baudrate": 9600
-}
-
+DRAWER_PORT = "/dev/ttyUSB0"
 TAX_RATE = 0.15  
-DRAWER_CONFIG = {
-    "port": "/dev/ttyUSB0",
-    "baudrate": 9600
-}
