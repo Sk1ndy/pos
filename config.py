@@ -9,7 +9,7 @@ PRINTER_CONFIG = {
     "vendor_id": 0x04b8,
     "product_id": 0x0202
 }
-DRAWER_PORT = "/dev/ttyUSB0"
+DRAWER_PORT ="/dev/caisse_pos"
 TAX_RATE = 0.15  
 TPS_RATE = 0.05
 TVQ_RATE = 0.09975
